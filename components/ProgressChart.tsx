@@ -42,7 +42,7 @@ const DonutProgressChart: React.FC<DonutProgressChartProps> = ({
           strokeWidth={strokeWidth}
           fill="none"
         />
-        {/* Progress circle */}
+        {}
         <Circle
           cx={center}
           cy={center}
