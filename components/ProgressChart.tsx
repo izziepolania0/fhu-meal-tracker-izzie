@@ -27,18 +27,18 @@ const DonutProgressChart: React.FC<DonutProgressChartProps> = ({
   const progressRatio = Math.max(0, Math.min(1, remaining / defaultValue));
   const strokeDashoffset = circumference * (1 - progressRatio);
 
-  const { colors } = useTheme(); 
-  const styles = getStyles(colors); 
+  const { colors } = useTheme();
+  const styles = getStyles(colors);
 
   return (
     <View style={styles.container}>
       <Svg width={size} height={size}>
-        {/}
+        {}
         <Circle
           cx={center}
           cy={center}
           r={radius}
-          stroke={colors.border} 
+          stroke={colors.border}
           strokeWidth={strokeWidth}
           fill="none"
         />
